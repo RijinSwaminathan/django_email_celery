@@ -1,0 +1,5 @@
+Hello
+Here is the One time password for the verification:
+{{otp|safe}}
+
+Thank you!
