@@ -1,5 +1,6 @@
-Hello
-Here is the One time password for the verification:
-{{otp|safe}}
+Hello,
 
-Thank you!
+Please use the verification code below on the Imeetsuite website: {{ time_otp|safe }}. If you didn't request this, you can ignore this email or let us know.
+
+Thanks!
+Imeetsuite team
