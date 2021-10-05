@@ -37,8 +37,10 @@ class UserManager(BaseUserManager):
 
 
 class User(AbstractBaseUser, PermissionsMixin):
-    email = models.EmailField(verbose_name='email_address', max_length=255, unique=True)
-    otp = models.IntegerField(verbose_name='one_time_password', blank=True, null=True)
+    email = models.EmailField(
+        verbose_name='email_address', max_length=255, unique=True)
+    otp = models.IntegerField(
+        verbose_name='one_time_password', blank=True, null=True)
     verified_user = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
